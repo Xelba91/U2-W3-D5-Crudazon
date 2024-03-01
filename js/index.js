@@ -41,8 +41,9 @@ fetch(endPoint, {
 						</p>
                     </div>
                         <div class="d-flex flex-column justify-content-between align-items-baseline">    
-                            <div>
+                            <div class="text-center">
                                 <a href="./product_details.html?resourceId=${id}" class="btn btn-primary mt-2">Scopri di più</a>
+                              
                                 <a href="./backoffice.html?resourceId=${id}" class="btn btn-secondary px-4 mt-2">Modifica</a>
                             </div>
                         </div>    
