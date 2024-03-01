@@ -49,7 +49,7 @@ fetch(endPoint, {
 					</div>
 				</div>`;
       //riga 45 - 46:
-      //  il bottone "scopri di piu"  quando verra premuto porterà alla pagina product_details, inserendo nella barra dell URL di windows anche l'id del prodotto in cui si trova, mentre il bottone modifica porterà alla pagina backoffice sempre con l 'id del prodotto.
+      //"scopri di piu"  quando verra premuto porterà alla pagina product_details, inserendo nella barra dell URL di windows anche l'id del prodotto in cui si trova, mentre  modifica porterà alla pagina backoffice sempre con l 'id del prodotto.
       catalogContainer.appendChild(cardItem);
     });
   })
