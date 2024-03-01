@@ -31,7 +31,7 @@ fetch(endPoint, {
       // card-img-top per mettere un immagine al top della card
       cardItem.innerHTML = ` 
             <div class="card mt-4">
-					<img src="${imageUrl}" class="card-img-top" alt="immagine ${name}" style="max-height: 200px ; object-fit:contain" />
+					<img src="${imageUrl}" class="card-img-top" alt="immagine ${name}" style="height: 200px ; object-fit:contain" />
 					<div class="card-body d-flex flex-column justify-content-between">
                     <div>
                     <h5 class="card-title">${name}</h5>
