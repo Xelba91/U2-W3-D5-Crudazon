@@ -1,6 +1,6 @@
 const endPoint = "https://striveschool-api.herokuapp.com/api/product/";
 const token =
-  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWUxYTA0YTRjNTllYzAwMTk5MGQ3MDgiLCJpYXQiOjE3MDkyODU0NTAsImV4cCI6MTcxMDQ5NTA1MH0.uoHW10kWiRtWcVDvDu-N9rH54ErS5DSzmtzxceY7kQY";
+  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZkYzQ2MmYwYmQ1MjAwMTkwMzI1YjAiLCJpYXQiOjE3MTExMjk2OTgsImV4cCI6MTcxMjMzOTI5OH0.kvXLBSohQcSX9ZnnTcf9O80TC95v_h0h7GEXDj-qtN0";
 
 const alertBox = document.getElementById("alert-box");
 const previewImage = document.getElementById("preview-image");

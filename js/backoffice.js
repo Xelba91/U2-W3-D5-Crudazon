@@ -1,6 +1,6 @@
 const endPoint = "https://striveschool-api.herokuapp.com/api/product/";
 const token =
-  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWUxYTA0YTRjNTllYzAwMTk5MGQ3MDgiLCJpYXQiOjE3MDkyODU0NTAsImV4cCI6MTcxMDQ5NTA1MH0.uoHW10kWiRtWcVDvDu-N9rH54ErS5DSzmtzxceY7kQY";
+  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZkYzQ2MmYwYmQ1MjAwMTkwMzI1YjAiLCJpYXQiOjE3MTExMjk2OTgsImV4cCI6MTcxMjMzOTI5OH0.kvXLBSohQcSX9ZnnTcf9O80TC95v_h0h7GEXDj-qtN0";
 
 // prendo il valore di resourceId dalla barra dell'url.
 const resourceId = new URLSearchParams(window.location.search).get("resourceId");
@@ -11,6 +11,7 @@ const nameField = document.getElementById("name");
 const descriptionField = document.getElementById("description");
 const brandField = document.getElementById("brand");
 const imageUrlField = document.getElementById("imageUrl");
+const AmazonUrlField = document.getElementById("AmazonUrl");
 const priceField = document.getElementById("price");
 const submitButton = document.getElementById("submitButton");
 const deleteButton = document.getElementById("deleteButton");
